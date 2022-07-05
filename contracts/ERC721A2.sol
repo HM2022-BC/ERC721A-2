@@ -30,9 +30,9 @@ contract ERC721A2 is
 
     // Constructor wäre teurer -> hier definieren
 
-    uint256 public constant MAX_MINTS_PER_USER = 5;
+    uint256 public constant MAX_MINTS_PER_USER = 1;
     // adjust for production, only set on "26" to test "TotalAmountWasMinted" error
-    uint256 public constant COLLECTION_SIZE = 26;
+    uint256 public constant COLLECTION_SIZE = 6;
     string public constant COLLECTION_NAME = "Collectible";
     string public constant COLLECTION_SYMBOL = "TEST";
 
