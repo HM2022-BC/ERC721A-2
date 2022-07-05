@@ -13,16 +13,16 @@ export ETHERSCAN_TOKEN=[ETHERSCAN_API_TOKEN]
 export REPORT_GAS=true
 ```
 
-# compile
+# Compile
 ```
 npx hardhat compile
 ```
 
-# runscript
+# Run script
 run remote
 
 ```
-npx hardhat run scripts/create_collectible.js --network ropsten
+npx hardhat run scripts/create_collectible.js --network [NETWORK_NAME]
 ```
 
 or local
@@ -31,7 +31,7 @@ or local
 npx hardhat run scripts/create_collectible.js
 ```
 
-# report gas use
+# Report gas use
 
 ```
 npx hardhat test
