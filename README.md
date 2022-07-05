@@ -2,10 +2,12 @@
 
 create an .env file
 
-```export PRIVATE_KEY=[METAMASK_PRIVATE_KEY]
+```
+export PRIVATE_KEY=[METAMASK_PRIVATE_KEY]
 export WEB3_INFURA_PROJECT_ID=[PROJECT_ID]
 export ETHERSCAN_TOKEN=[ETHERSCAN_API_TOKEN]
-export REPORT_GAS=true```
+export REPORT_GAS=true
+```
 
 # compile
 ```npx hardhat compile```
