@@ -2,10 +2,13 @@
 
 create an .env file
 
-`export PRIVATE_KEY=[METAMASK_PRIVATE_KEY] \n export WEB3_INFURA_PROJECT_ID=[PROJECT_ID] \n export ETHERSCAN_TOKEN=[ETHERSCAN_API_TOKEN] \n export REPORT_GAS=true`
+```export PRIVATE_KEY=[METAMASK_PRIVATE_KEY]
+export WEB3_INFURA_PROJECT_ID=[PROJECT_ID]
+export ETHERSCAN_TOKEN=[ETHERSCAN_API_TOKEN]
+export REPORT_GAS=true```
 
 # compile
-npx hardhat compile
+```npx hardhat compile```
 
 # runscript
 run remote
