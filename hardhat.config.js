@@ -43,10 +43,6 @@ module.exports = {
     hardhat: {
       // See its defaults
     },
-    morpheus: {
-      url: "http://bops.morpheuslabs.io:22408",
-      accounts: ["b989dad1fad162f05565f6f2b05411bf05a84e794473edeb0bdb1699c22d2a30"],
-    },
   },
   solidity: {
     version: "0.8.13",
