@@ -10,17 +10,25 @@ export REPORT_GAS=true
 ```
 
 # compile
-```npx hardhat compile```
+```
+npx hardhat compile
+```
 
 # runscript
 run remote
 
-`npx hardhat run scripts/create_collectible.js --network ropsten`
+```
+npx hardhat run scripts/create_collectible.js --network ropsten
+```
 
 or local
 
-`npx hardhat run scripts/create_collectible.js`
+```
+npx hardhat run scripts/create_collectible.js
+```
 
 # report gas use
 
+```
 npx hardhat test
+```
